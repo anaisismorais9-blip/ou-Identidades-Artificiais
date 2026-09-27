@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona.AI | Crítica à Inteligência Artificial na Escola</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte elegante e limpa -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navegação Superior -->
+    <header class="navbar">
+        <div class="logo">Persona<span>.AI</span></div>
+        <nav>
+            <a href="#manifesto">Manifesto</a>
+            <a href="#critica">O Impacto</a>
+            <a href="#quiz">Teste de Turing</a>
+            <a href="#futuro">O Futuro</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Abertura) -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tagline">Técnicas Computacionais & Sociedade</p>
+            <h1>A IA está respondendo suas perguntas ou moldando quem você vai ser?</h1>
+            <p class="subtext">Uma reflexão analítica sobre a terceirização da personalidade, da escrita e do pensamento crítico no ambiente escolar.</p>
+            <a href="#manifesto" class="btn-primary">Entrar na Reflexão</a>
+        </div>
+    </section>
+
+    <!-- Seção 1: Manifesto -->
+    <section id="manifesto" class="section container">
+        <div class="section-header">
+            <span>01 // O ESPELHO DIGITAL</span>
+            <h2>Manifesto pela Autoria</h2>
+        </div>
+        <div class="grid-2">
+            <p class="lead-text">
+                Na pressa por entregas perfeitas, transferimos nossos ensaios, dúvidas e até desabafos para algoritmos preditivos. Mas o que acontece com a singularidade quando todos os estudantes bebem da mesma fonte artificial?
+            </p>
+            <p>
+                Este espaço não propõe o abandono da tecnologia, mas sim o despertar de uma consciência crítica. A Inteligência Artificial deve atuar como um copiloto técnico, jamais como o piloto da sua identidade, do seu estilo ou das suas crises de crescimento.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção 2: Eixos Críticos -->
+    <section id="critica" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <span>02 // ANÁLISE COMPORTAMENTAL</span>
+                <h2>Como a IA afeta sua personalidade</h2>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-num">I</div>
+                    <h3>Erosão da Voz Autoral</h3>
+                    <p>Ao adotar textos prontos gerados por LLMs, o estudante deixa de desenvolver seus próprios vícios de linguagem, metáforas e opiniões únicas. A escrita padronizada gera mentes padronizadas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-num">II</div>
+                    <h3>Simulação de Afeto</h3>
+                    <p>A substituição de interações humanas reais por conversas profundas com chatbots (personas simuladas) cria uma bolha de empatia artificial, onde o jovem não aprende a lidar com a frustração do contraditório.</p>
+                </div>
+                <div class="card">
+                    <div class="card-num">III</div>
+                    <h3>A Ilusão do Conhecimento</h3>
+                    <p>Confundir a capacidade de pesquisar e formatar de uma IA com o verdadeiro aprendizado cognitivo sabota a memória profunda, a retenção de conceitos e o esforço analítico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Quiz Interativo -->
+    <section id="quiz" class="section container">
+        <div class="section-header">
+            <span>03 // EXPERIMENTAÇÃO</span>
+            <h2>O Teste de Turing Escolar</h2>
+            <p>Consegue diferenciar a imperfeição humana da precisão matemática? Leia o trecho abaixo e decida.</p>
+        </div>
+
+        <div class="quiz-box">
+            <div id="quiz-content">
+                <p class="text-sample">"Acho que a liberdade na escola não é só fazer o que quer, sabe? É mais sobre não se sentir sufocado por regras que ninguém explica o motivo. Às vezes a gente só quer ser ouvido, sem nota ou julgamento."</p>
+                <div class="quiz-buttons">
+                    <button class="btn-quiz" onclick="checkAnswer('humano')">Escrito por um Aluno</button>
+                    <button class="btn-quiz" onclick="checkAnswer('ia')">Gerado por uma IA</button>
+                </div>
+            </div>
+            <div id="quiz-result" class="hidden">
+                <h4 id="result-title"></h4>
+                <p id="result-text"></p>
+                <button class="btn-primary" onclick="resetQuiz()">Tentar Novamente</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: O Caminho do Meio -->
+    <section id="futuro" class="section bg-dark text-center">
+        <div class="container container-small">
+            <div class="section-header">
+                <span>04 // O CAMINHO DO MEIO</span>
+                <h2>Cultura Computacional Consciente</h2>
+            </div>
+            <p>A tecnologia deve ampliar sua humanidade, não substituí-la. Use códigos para automatizar a lógica, mas guarde para si o privilégio de sentir, errar e criar o inesperado.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Persona.AI — Projeto de Técnicas Computacionais</p>
+            <p>Desenvolvido com elegância acadêmica.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
